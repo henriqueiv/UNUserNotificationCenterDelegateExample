@@ -51,6 +51,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
             print("Nothing to say...")
         }
         
+        completionHandler(.alert)
         
     }
     
